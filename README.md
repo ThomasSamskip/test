@@ -1,1 +1,1 @@
-# playground-natural-language-vis
+# playground-untappd-capability-dashboard
