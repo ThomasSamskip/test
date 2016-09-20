@@ -12,14 +12,21 @@
     <title>Search & Viz</title>
   </head>
   <body>
-    <playground component="notifier" id='not1' class="notifier-cover"></playground>
-    <div class="container">
-      <h1>Search &amp; Visualise</h1>
-      <p>
-        This example allows you to use a more natural language to create visualisations on top of your data.
-      </p>
+    <div class="container main">
+      <playground component="notifier" id='not1' class="notifier-cover"></playground>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12">
+          <h1>Search &amp; Visualise</h1>
+          <ol>
+            <li>Start by simply typing the name of a field from your data to produce a KPI.</li>
+            <li>If nothing happens the chosen field is probably not considered as measurable but you can use words and phrases like 'sum' or 'how many' in front of the field name to be more precise.</li>
+            <li>You can include multiple fields to start producing more sophisticated visualisations and if you want something specific, like a line chart, simply add 'linechart' to your search terms.</li>
+            <li>If you want to filter the data you can add field values and if there are any ambiguities you can tell the search what you meant.</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
           <sense-search-input id="myInput" mode="visualizations"></sense-search-input>
           <sense-search-results id="myResults"></sense-search-results>
         </div>

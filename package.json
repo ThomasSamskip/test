@@ -12,7 +12,9 @@
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "jquery": "^3.1.0",
+    "open": "0.0.5",
     "playground-js-api": "^0.1.12",
-    "sense-search-components": "^1.0.3"
+    "sense-search-components": "^1.0.3",
+    "serve-static": "^1.11.1"
   }
 }
