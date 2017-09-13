@@ -1,4 +1,13 @@
-var config={};
+          
+var config={
+	host:"playground.qlik.com",
+	prefix:"/playground/",
+	port:"443",
+	isSecure:true,
+	rejectUnauthorized:false,
+	apiKey:"z8eEINJNE58kLpTSJccQY13drBRM1p9M",
+	appname:"a735ec6e-1450-4797-b98c-ce06cfe2c351"
+};
 
 function authenticate(){
   Playground.authenticate(config);
